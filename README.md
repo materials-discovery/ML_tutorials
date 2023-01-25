@@ -18,21 +18,21 @@ https://colab.research.google.com/
 
 6- When you finish all the exercice, open a fresh colab session and choose another notebook.
 
-7- Follow this order of the notebook
+7- Follow this order of the notebooks:
 
-  a- Basics_in_Python.ipynb
-  
-  b-Introduction_to_NumPy.ipynb
-  
-  c-Introduction_to_Pandas.ipynb
-  
-  d-Basics_visualisation.ipynb
-  
-  e-Loops and functions.ipynb
-  
-  f-Preprocessing.ipynb
-  
-  g-Multiple_Linear_Regression.ipynb
+      a- Basics_in_Python.ipynb
+
+      b-Introduction_to_NumPy.ipynb
+
+      c-Introduction_to_Pandas.ipynb
+
+      d-Basics_visualisation.ipynb
+
+      e-Loops and functions.ipynb
+
+      f-Preprocessing.ipynb
+
+      g-Multiple_Linear_Regression.ipynb
   
 
 
