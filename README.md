@@ -31,8 +31,18 @@ https://colab.research.google.com/
       e-Loops and functions.ipynb
 
       f-Preprocessing.ipynb
+      
+      g-Preprocessing_Iris_dataset.ipynb
+     
+      h-Feature_selection.ipynb.ipynb
+      
+      i-Underfitting_Overfitting.ipynb
+      
+      j-Outliers_removal.ipynb
 
-      g-Multiple_Linear_Regression.ipynb
+      k-Multiple_Linear_Regression.ipynb
+     
+      l-Logistic_regression.ipynb
   
 
 
