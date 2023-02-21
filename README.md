@@ -42,7 +42,8 @@ https://colab.research.google.com/
 
       k-Multiple_Linear_Regression.ipynb
      
-      l-Logistic_regression.ipynb
-  
+      l-Random_Forest_Iris.ipynb
+        
+      m-Logistic_regression.ipynb
 
 
