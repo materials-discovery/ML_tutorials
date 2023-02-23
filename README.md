@@ -43,7 +43,15 @@ https://colab.research.google.com/
       k-Multiple_Linear_Regression.ipynb
      
       l-Random_Forest_Iris.ipynb
+      
+      m-KNN.ipynb
+      
+      n-KNN-optimsation.ipynb
+      
+      o-SVM.ipynb
+      
+      p-imbalanced_classes.ipynb
         
-      m-Logistic_regression.ipynb
+      q-Logistic_regression.ipynb
 
 
