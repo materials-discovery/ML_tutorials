@@ -52,6 +52,44 @@ https://colab.research.google.com/
       
       p-imbalanced_classes.ipynb
         
-      q-Logistic_regression.ipynb
+      q-Kmeans.ipynb
+      
+      r-kmeans_2.ipynb
+      
+      s-hierarchical_clustering.ipynb
+      
+      t-PCA_1.ipynb
+      
+      u-PCA_2.ipynb
+      
+      v-PCA_3.ipynb
+      
+      w-Logistic_regression.ipynb
+      
+Install and run Knime
+      
+0) Create a directory to install it in eg:
+
+NOTE: your ssh connection to Aristotle will need X tunnelling enabled. So, run Xming or Exceed then run Putty and activate X11.
+1) Run the following:
+mkdir -p ~/apps/KNIME
+cd ~/apps/KNIME
+
+2) Download the 64bit Linux version, unarchive it and update your PATH:
+wget https://download.knime.org/analytics-platform/linux/knime-latest-linux.gtk.x86_64.tar.gz
+tar -xvf knime-latest-linux.gtk.x86_64.tar.gz
+export PATH=$PATH:~/apps/KNIME/knime_4.7.1
+
+3) Load the following modules:
+
+module -f unload compilers mpi gcc-libs
+module load beta-modules
+module load gcc-libs/10.2.0
+
+4) un it using:
+
+knime &
+
+
 
 
