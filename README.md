@@ -71,22 +71,44 @@ Install and run Knime
 0) Create a directory to install it in eg:
 
 NOTE: your ssh connection to Aristotle will need X tunnelling enabled. So, run Xming or Exceed then run Putty and activate X11.
-1) Run the following:
+
+I. Installation of Knime
+
+1) Run the following in the terminal:
+
 mkdir -p ~/apps/KNIME
+
 cd ~/apps/KNIME
 
 2) Download the 64bit Linux version, unarchive it and update your PATH:
+
 wget https://download.knime.org/analytics-platform/linux/knime-latest-linux.gtk.x86_64.tar.gz
+
 tar -xvf knime-latest-linux.gtk.x86_64.tar.gz
+
 export PATH=$PATH:~/apps/KNIME/knime_4.7.1
 
 3) Load the following modules:
 
 module -f unload compilers mpi gcc-libs
+
 module load beta-modules
+
 module load gcc-libs/10.2.0
 
-4) un it using:
+II- Running Knime:
+
+1) Run the following in the terminal:
+
+cd ~/apps/KNIME
+
+export PATH=$PATH:~/apps/KNIME/knime_4.7.1
+
+module -f unload compilers mpi gcc-libs
+
+module load beta-modules
+
+module load gcc-libs/10.2.0
 
 knime &
 
